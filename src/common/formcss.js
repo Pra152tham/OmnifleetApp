@@ -1,0 +1,56 @@
+module.exports = {
+    head1: {
+        fontSize: 30,
+        color: "#000",
+        textAlign: "center",
+        fontWeight: 550,
+        marginBottom: 5,
+    },
+    head2: {
+        fontSize: 20,
+        color: "#000",
+        textAlign: "center",
+        marginBottom: 10,
+    },
+    form: {
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        marginVertical: 10,
+    },
+    label: {
+        fontSize: 17,
+        color: "#0B324D",
+        marginLeft: 30,
+        marginBottom: 5,
+    },
+    input: {
+        backgroundColor: "#2095E0",
+        borderRadius: 20,
+        padding: 10,
+        minWidth: 100,
+        marginLeft: 15,
+        marginRight: 15,
+        color: "white",
+    },
+    link: {
+        color: "#2095D5",
+        fontSize: 15,
+    },
+    link2: {
+        color: "#001",
+        fontSize: 15,
+        textAlign: "center",
+    },
+    errormessage: {
+        color: "white",
+        fontSize: 15,
+        textAlign: "center",
+        backgroundColor: "red",
+        padding: 5,
+        borderRadius: 50,
+        width: 200,
+        marginVertical: 15,
+        marginHorizontal: 110,
+    },
+}
